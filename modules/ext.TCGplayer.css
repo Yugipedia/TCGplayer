@@ -1,0 +1,8 @@
+.tcgplayer {
+	width: 100%;
+	text-align: center;
+}
+
+.tcgplayer__data > td::before {
+	content: '$';
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Corey Chambers <coreychambers123@gmail.com>",
+			"Becasita"
+		]
+	},
+	"tcgplayer-desc": "Uses the TCGplayer API to list card prices on TCG card pages"
+}

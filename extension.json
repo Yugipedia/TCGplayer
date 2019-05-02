@@ -1,0 +1,40 @@
+{
+	"name": "TCGplayer",
+	"version": "0.2.0",
+	"author": [
+		"Corey Chambers <coreychambers123@gmail.com>",
+		"Becasita"
+	],
+	"url": "https://github.com/...",
+	"descriptionmsg": "tcgplayer-desc",
+	"license-name": "",
+	"type": "api",
+	"AutoloadClasses": {
+		"TCGplayerHooks": "TCGplayer.hooks.php"
+	},
+	"config": {
+		"TCGplayerBearerToken": ""
+	},
+	"Hooks": {
+		"BeforePageDisplay": "TCGplayerHooks::createScript"
+	},
+	"MessagesDirs": {
+		"TCGplayer": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.tcgplayer.foo": {
+			"scripts": [
+				"modules/ext.tcgplayer.js"
+			],
+			"messages": [],
+			"dependencies": []
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "TCGplayer"
+	},
+	"manifest_version": 1
+}
